@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     console.log('user:', user);
 
     const lineItems =[{
-      price: process.env.STRIPE_PRODUCTA_ID,
+      price: process.env.STRIPE_PRODUCTC_ID,
       quantity : 1,
     }];
     
@@ -33,7 +33,7 @@ export default async function handler(req, res) {
       },
       { 
         $inc: {
-          availableTokens: 10
+          availableTokens: 50
         },
         $setOnInsert: {
           auth0Id: user.sub
