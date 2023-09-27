@@ -36,7 +36,8 @@ export default async function handler(req, res) {
           availableTokens: 50
         },
         $setOnInsert: {
-          auth0Id: user.sub
+          auth0Id: user.sub,
+          plan : "Mega"
         }
       },
       {

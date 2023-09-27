@@ -1,7 +1,7 @@
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 import { AppLayout } from '../components/AppLayout';
 import { getAppProps } from "../utils/appprops";
-import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import Link from "next/link";
 
 function Success() {
@@ -16,7 +16,7 @@ function Success() {
       <h2>Thank you for your purchase!</h2>
 
       <Link href='/post/newpost'>
-      <p className="flex items-center text-slate-300 gap-5 bg-slate-800 px-10 rounded-full py-3 mt-5 cursor-pointer"><FaArrowLeft /> Back</p>
+      <p className="flex items-center text-slate-300 gap-5 bg-slate-800 px-10 rounded-full py-3 mt-5 cursor-pointer"> PROCEED <FaArrowRight />  </p>
        </Link>
     </div>
    

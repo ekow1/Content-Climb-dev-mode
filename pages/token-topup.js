@@ -71,7 +71,7 @@ function TokenTopUp() {
                </div>
             <div className="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center     ">
             <div className="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-slate-400 z-30">
-                <h1 className="text-slate-800 font-semibold text-2xl font-heading ">Basic Plan</h1>
+                <h1 className="text-slate-800 font-semibold text-2xl font-heading ">Basic Package</h1>
                     <div className="text-center py-4 px-10">
                         <h1 className="text-slate-900 text-4xl font-black font-heading">$5.00</h1>
                         <p className="text-slate-900 font-body mt-2">GHS 58.00</p>
@@ -87,7 +87,7 @@ function TokenTopUp() {
                       <button  onClick={handleProductA} className="w-full mt-6 mb-3 py-2 text-slate-400 font-semibold bg-slate-900 hover:shadow-xl duration-200 flex items-center justify-center gap-3 text-lg "> <FaCartPlus size={25} /> Purchase</button>
                 </div>
                 <div className="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-slate-900 transform scale-1 sm:scale-1 md:scale-105 lg:scale-105 xl:scale-105 z-40  shadow-none sm:shadow-none md:shadow-xl lg:shadow-xl xl:shadow-xl">
-                     <h1 className="text-slate-400 font-semibold text-2xl font-heading ">Premium Plan</h1>
+                     <h1 className="text-slate-400 font-semibold text-2xl font-heading ">Jumbo Package</h1>
                     <div className="text-center py-4 px-10">
                         <h1 className="text-slate-400 text-4xl font-black font-heading">$9.00</h1>
                         <p className="text-slate-300 font-body mt-2">GHS 104.00</p>
@@ -103,7 +103,7 @@ function TokenTopUp() {
                     <button  onClick={handleProductB} className="w-full mt-6 mb-3 py-2 text-slate-900 font-semibold bg-slate-400 hover:shadow-xl duration-200 flex items-center justify-center gap-3 text-lg "> <FaCartPlus size={25} /> Purchase</button>
                 </div>
                 <div className="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-slate-200 z-30">
-                  <h1 className="text-slate-700 font-semibold text-2xl font-heading ">Mega Plan</h1>
+                  <h1 className="text-slate-700 font-semibold text-2xl font-heading ">Mega Package</h1>
                     <div className="text-center py-4 px-10">
                         <h1 className="text-slate-700 text-4xl font-black font-heading">$20.00</h1>
                         <p className="text-slate-700 font-body mt-2">GHS 240.00</p>

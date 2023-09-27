@@ -36,9 +36,12 @@ export default async function handler(req, res) {
           availableTokens: 10
         },
         $setOnInsert: {
-          auth0Id: user.sub
-        }
+          auth0Id: user.sub,
+          
+        },
+        
       },
+
       {
         upsert: true
       }

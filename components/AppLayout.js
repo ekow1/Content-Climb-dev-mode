@@ -165,7 +165,7 @@ export const AppLayout = ({ children, availableTokens, posts: postsFromSSR, post
                       <FiMessageSquare />
                     </div>
                   )}
-                  <div className="truncate ml-2">{post.topic}</div>
+                  <div className="truncate ml-2 lowercase">{post.topic}</div>
                 </div>
                 {postId === post._id && !showDeleteConfirmation && (
                   <div>
