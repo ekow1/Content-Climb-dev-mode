@@ -37,7 +37,7 @@ export default async function handler(req, res) {
         },
         $setOnInsert: {
           auth0Id: user.sub,
-          plan : "Premium"
+        
         }
       },
       {

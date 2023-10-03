@@ -34,7 +34,7 @@ const Hero = () => {
         blog article
     </span>
  </h1>
- <h1 className="text-5xl sm:text-8xl font-bold z-20">SAAS slotution.</h1>
+ <h1 className="text-5xl sm:text-8xl font-bold z-20">SAAS solution.</h1>
  <h2 className="text-xl font-body sm:text-2xl mt-10">
    {/* <Typed 
    strings={[
